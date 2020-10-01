@@ -1,3 +1,6 @@
+# Program for finding that the particular string is made up of alphabets or not.
+# If not then String will not be accepted by the function
+# If yed then String will be accepted
 import re 
 
 def run(string): 
