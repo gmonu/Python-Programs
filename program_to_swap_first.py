@@ -8,6 +8,6 @@ def swapList(newList):
 	
 	return newList 
 	
-newList = [12, 35, 9, 56, 24] 
+newList = [12, 35, 9, 56, 24, 13, 65, 422] 
 
 print(swapList(newList)) 
