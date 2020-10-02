@@ -1,3 +1,4 @@
+# program for printing a pattern according to user input
 def pattern(n): 
   
     
