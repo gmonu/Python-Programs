@@ -1,3 +1,4 @@
+#program of checking any function. 
 print("Hello World")
 a[10], b=[20]
 sum = a+b
