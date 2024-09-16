@@ -1,3 +1,5 @@
+#program for showing the real time
+
 from datetime import datetime
 import time
 import random
@@ -13,12 +15,5 @@ else:
   wait_time = random.randint(1, 60)
   time.sleep(wait_time)
 
-#for i in [1, 2, 3]:
- #   print(i)
+# testing
 
-
-#a, b = 0, 1
-
-#while a < 1000:
- #    print(a, end=',')
-  #   a, b = b, a+b
