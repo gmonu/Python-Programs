@@ -1,4 +1,11 @@
-str = "bicefogu$jbbbjjj%3233"
+import random
+import string
+
+str = ''.join(random.choices(string.ascii_lowercase, k=40))
+str1 = ''.join(random.choices(string.digits, k=15))
+str = ''.join(random.choices(str+str1, k=50))
+print(str)
+
 vowels = ['a', 'e', 'i', 'o', 'u']
 
 vowels_count = {}
