@@ -22,3 +22,13 @@ for j in str:
 print("Vowels count:", vowels_count)
 print("Consonants count:", consonants_count)
 print("Non Alpha count:", non_alpha_chars)
+
+str_list = list(str)
+
+for i in range(len(str_list)):
+    if str_list[i] in vowels:
+        next_char = chr(ord(str_list[i]) + 1) 
+        str_list[i] = next_char
+
+output = ''.join(str_list)
+print(output)
